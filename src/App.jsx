@@ -31,8 +31,8 @@ function App() {
   
   return (
     <>
-      <div className='min-h-screen w-full p-5 bg-Body bg-cover bg-no-repeat bg-center flex justify-center items-center gap-6 max-[375px]:flex-col cursor-grab'>
-        <div className='w-1/5 max-[375px]:w-1/3 h-1/3 max-[375px]:mr-[8.5rem]'>
+      <div className='min-h-screen w-full p-5 bg-Body bg-cover bg-no-repeat bg-center flex justify-center items-center gap-6 max-[576px]:flex-col cursor-grab'>
+        <div className='w-1/5 max-[576px]:w-1/3 h-1/3 max-[576px]:mr-[8.5rem]'>
           {wdata && (<Tempreture
             setCity={setCity}
             stats={{
@@ -47,7 +47,7 @@ function App() {
           />
           )}
         </div>
-        <div className='w-1/3 h-1/3 p-10 grid grid-cols-2 gap-6 mt-14 max-[375px]:flex max-[375px]:flex-col max-[375px]:w-[80%]'>
+        <div className='w-1/3 h-1/3 p-10 grid grid-cols-2 gap-6 mt-14 max-[576px]:flex max-[576px]:flex-col max-[576px]:w-[80%]'>
           {wdata && (
           <>
           <Infos
